@@ -1,0 +1,228 @@
+body {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* skills bar styles */
+
+.skillsp p {
+    font-size: 20px;
+}
+
+.skills-container {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(211, 171, 97);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.php {
+    width: 80%;
+}
+
+.react {
+    width: 20%;
+}
+
+.javascript {
+    width: 40%;
+}
+
+.git {
+    width: 90%;
+}
+
+
+
+
+/* skills bar style END */
+
+
+/* flexBox style */
+
+
+
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.lift-c {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 30%;
+}
+
+.right-c {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 70%;
+}
+
+
+
+
+#wrapper {
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 350px;
+    max-width: 1280px;
+    font-family: 'IBM Plex Sans Condensed';
+
+}
+
+header {
+    text-align: left;
+    margin: 0px;
+    background-color: #FED78C;
+}
+
+.head-t {
+    padding: 5px;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* flexbox accounts */
+
+.accounts {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.accounts2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.boxaccount {
+    border: 10px;
+}
+
+.twitter {
+    padding: 10px;
+    background: url("https://cdn-icons-png.flaticon.com/512/733/733635.png") no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+
+.linkedin {
+    padding: 10px;
+    background: url("https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png") no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+
+.Email {
+    padding: 10px;
+    background: url("https://www.seekpng.com/png/detail/41-415678_email-icon-vector-circle.png") no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+
+.website {
+    padding: 10px;
+    background: url("https://w7.pngwing.com/pngs/639/449/png-transparent-computer-icons-website-icon-text-globe-symmetry-thumbnail.png") no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+.flex-accounts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.flex-accounts ul {
+    list-style: none;
+
+}
+
+
+
+
+
+
+nav {
+    text-align: center;
+    /* text-align: center; */
+    font-weight: bold;
+    /* padding: 1em; */
+    /* float: left; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-width: 3px;
+    border-style: outset;
+    padding: 1em;
+    border-color: #CCCCCC;
+    margin-bottom: 1em;
+    width: auto;
+    margin: 10px;
+}
+
+nav ul li a:visited {
+    color: #237B7B;
+}
+
+nav ul li a:hover {
+    color: #40407A;
+    border-width: 3px;
+    border-style: inset;
+    border-color: #333333;
+
+}
+
+nav a {
+    text-decoration: none;
+}
