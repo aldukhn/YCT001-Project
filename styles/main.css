@@ -185,7 +185,7 @@ nav {
     /* float: left; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
 
 }
@@ -196,6 +196,8 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav ul li a {
