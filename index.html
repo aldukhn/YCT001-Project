@@ -37,7 +37,7 @@
                 <li><a href="#Courses">Courses</a></li>
                 <li><a href="#ach">ACHIEVEMENTS</a></li>
                 <li><a href="#accountssec">ACCOUNTS</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#Contactform">Contact</a></li>
             </ul>
         </nav>
         <main>
@@ -170,7 +170,7 @@
                 </div>
                 <h2>CONTACT</h2>
                 <hr>
-                <div class="Contactform">
+                <div class="Contactform" id="Contactform">
                     <p><strong> Contact</strong></p>
                     <form method="POST" action="https://abdulomard.ca/mcgill/submit-form-cv.php">
                         <div class="form-group">
@@ -214,7 +214,7 @@
                             <ul>
                                 <li class="linkedin"><a href="https://www.linkedin.com/in/abdul-al-dukhn-2220b8118/"
                                         target="_blank">https://www.linkedin.com/in/abdul-al-dukhn</a></li>
-                                <li class="twitter"><a href="#" target="_blank">@ontarian0</a></li>
+                                <li class="twitter"><a href="#" target="_blank">https://twitter.com/ontarian0</a></li>
                             </ul>
                         </div>
                     </div>
@@ -223,7 +223,31 @@
         <footer>
 
         </footer>
+        <!-- go to the top button -->
+        <button id="myBtn" title="Go to top" onclick="topFunction()">Top</button>
+
+
     </div>
+
 </body>
+
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
 
 </html>
