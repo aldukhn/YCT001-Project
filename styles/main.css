@@ -22,7 +22,7 @@ body {
 }
 
 .skill {
-    background-color: rgb(211, 171, 97);
+    background-color: rgb(104, 104, 104);
     color: white;
     padding: 1%;
     text-align: right;
@@ -97,13 +97,15 @@ main {
     min-width: 350px;
     max-width: 1280px;
     font-family: 'IBM Plex Sans Condensed';
+    /* font-family: "Times New Roman", Times, serif; */
+
 
 }
 
 header {
     text-align: left;
     margin: 0px;
-    background-color: #FED78C;
+    background-color: #f8f8f8;
 }
 
 .head-t {
@@ -234,7 +236,7 @@ nav a {
     text-decoration: none;
 }
 
-/* contact form */
+/* contact form styling */
 .form-group {
     display: grid;
     grid-template-columns: 0fr 1fr;
@@ -326,4 +328,5 @@ textarea {
     /* Rounded corners */
     font-size: 18px;
     /* Increase font size */
+    opacity: 0.3;
 }
