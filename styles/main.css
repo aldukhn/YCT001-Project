@@ -5,6 +5,9 @@ body {
     margin-right: auto;
 }
 
+.carrer-title {
+    font-weight: lighter;
+}
 
 /* skills bar styles */
 
@@ -53,7 +56,13 @@ body {
 
 
 
+h2 {
+    text-transform: uppercase;
+}
 
+h3 {
+    text-transform: uppercase;
+}
 
 
 main {
@@ -173,10 +182,6 @@ a {
 }
 
 
-
-
-
-
 nav {
     text-align: center;
     /* text-align: center; */
@@ -227,4 +232,67 @@ nav ul li a:hover {
 
 nav a {
     text-decoration: none;
+}
+
+/* contact form */
+.form-group {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    grid-column-gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    grid-column: 1;
+    text-align: right;
+}
+
+input,
+select,
+textarea {
+    grid-column: 2;
+    width: 100%;
+
+}
+
+.submit-btn {
+    background-color: #2ecc71;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    margin-left: 50%;
+}
+
+/* Button hover styles */
+.submit-btn:hover {
+    background-color: #27ae60;
+}
+
+/* Button focus styles */
+.submit-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.4);
+}
+
+/* Button disabled styles */
+.submit-btn[disabled] {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+
+/* Button loading styles */
+.submit-btn.loading {
+    background-color: #7f8c8d;
+    cursor: progress;
+}
+
+textarea {
+    height: 80px;
 }
