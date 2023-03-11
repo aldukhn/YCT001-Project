@@ -7,11 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-
-
     <title>Abdulrahman CV</title>
 </head>
 
@@ -30,6 +25,7 @@
             </div>
             <hr>
         </header>
+        <!-- nav bar  -->
         <nav>
             <ul>
                 <li><a href="#exp">EXPERIENCE</a></li>
@@ -41,6 +37,7 @@
             </ul>
         </nav>
         <main>
+            <!-- left container for flex box -->
             <div class="lift-c">
                 <section class="links">
                     <i class="fa fa-linkedin" style="font-size:10px;" id="linkicon"></i>
@@ -48,6 +45,7 @@
                     <i class="fa fa-github" style="font-size:10px;" id="linkicon"></i>
                     <a href="https://github.com/aldukhn" target="_blank">Github</a>
                 </section>
+                <!-- skills bar  -->
                 <div class="skillsp">
                     <p>php</p>
                     <div class="skills-container">
@@ -70,12 +68,14 @@
                     </div>
                 </div>
             </div>
+            <!-- right container for flex box -->
             <div class="right-c">
                 <div class="HOQ">
                     <div class="main-title">
                         <h2 id="HQ">HIGHLIGHTS OF QUALIFICATIONS</h2>
                         <hr>
                     </div>
+                    <!-- HIGHLIGHTS list  -->
                     <ul class="exp-list">
                         <li>2 years, experience as a Software Developer creating projects such as loyalty
                             program, document management system, and websites</li>
@@ -105,7 +105,6 @@
                             <li>Experienced with an IDEs</li>
                         </ul>
                     </section>
-
                     <section class="exp-1">
                         <h3>Tech SupportTier 2, Nojoom Alsalaam Co</h3>
                         <p>October 2019 &#8212; January 2021</p>
@@ -159,7 +158,7 @@
                             3 tech support engineers</li>
                     </ul>
                 </div>
-
+                <!-- References section -->
                 <div class="References">
                     <div class="main-title">
                         <h2>References</h2>
@@ -170,6 +169,8 @@
                 </div>
                 <h2>CONTACT</h2>
                 <hr>
+
+                <!-- Contact form -->
                 <div class="Contactform" id="Contactform">
                     <p><strong> Contact</strong></p>
                     <form method="POST" action="https://abdulomard.ca/mcgill/submit-form-cv.php">
@@ -180,12 +181,13 @@
 
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                         </div>
 
                         <div class="form-group">
                             <label for="phone">Phone</label>
-                            <input type="tel" id="phone" name="phone" required>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
                         </div>
 
 
@@ -197,6 +199,8 @@
                         <button type="submit" class="submit-btn">Submit</button>
                     </form>
                 </div>
+
+                <!-- accounts nav -->
                 <div class="account-sec">
                     <h2 id="accountssec">ACCOUNTS</h2>
                     <hr>

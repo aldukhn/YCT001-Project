@@ -9,16 +9,22 @@ body {
     font-weight: lighter;
 }
 
+.links {
+    margin-left: 1em;
+}
+
 /* skills bar styles */
 
 .skillsp p {
     font-size: 20px;
+    margin-left: 1em;
 }
 
 .skills-container {
     background-color: rgb(192, 192, 192);
     width: 80%;
     border-radius: 15px;
+    margin-left: 1em;
 }
 
 .skill {
@@ -52,7 +58,6 @@ body {
 /* skills bar style END */
 
 
-/* flexBox style */
 
 
 
@@ -64,6 +69,7 @@ h3 {
     text-transform: uppercase;
 }
 
+/* flexBox style */
 
 main {
     display: flex;
@@ -72,17 +78,19 @@ main {
     width: 100%;
 }
 
+/* flexBox style left */
 .lift-c {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     flex: 30%;
 }
 
+/* flexBox style right */
 .right-c {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     flex: 70%;
 }
 
@@ -119,7 +127,7 @@ a {
 
 
 
-/* flexbox accounts */
+/* flexbox accounts section */
 
 .accounts {
     display: flex;
@@ -300,7 +308,7 @@ textarea {
 }
 
 
-
+/* go to the top btn */
 #myBtn {
     display: none;
     /* Hide the button by default */
@@ -332,7 +340,7 @@ textarea {
 }
 
 
-
+/* Download btn */
 .download-container {
     display: flex;
     justify-content: center;
