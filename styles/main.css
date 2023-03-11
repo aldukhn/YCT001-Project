@@ -90,7 +90,7 @@ main {
 
 
 #wrapper {
-    background-color: #FFFFFF;
+    background-color: #f3f3f3;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -105,7 +105,7 @@ main {
 header {
     text-align: left;
     margin: 0px;
-    background-color: #f8f8f8;
+    background-color: #e9e9e9;
 }
 
 .head-t {
@@ -254,12 +254,12 @@ input,
 select,
 textarea {
     grid-column: 2;
-    width: 100%;
+    width: 95%;
 
 }
 
 .submit-btn {
-    background-color: #2ecc71;
+    background-color: rgb(104, 104, 104);
     border: none;
     color: #fff;
     cursor: pointer;
@@ -273,13 +273,13 @@ textarea {
 
 /* Button hover styles */
 .submit-btn:hover {
-    background-color: #27ae60;
+    background-color: rgb(75, 73, 73);
 }
 
 /* Button focus styles */
 .submit-btn:focus {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.4);
+    box-shadow: 0 0 0 3px rgb(41, 39, 39);
 }
 
 /* Button disabled styles */
@@ -329,4 +329,34 @@ textarea {
     font-size: 18px;
     /* Increase font size */
     opacity: 0.3;
+}
+
+
+
+.download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: rgb(104, 104, 104);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+
+footer {
+    text-align: left;
+    margin: 0px;
+    background-color: #f3f3f3;
+    padding: 2em;
 }
